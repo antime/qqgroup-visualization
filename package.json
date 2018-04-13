@@ -1,0 +1,20 @@
+{
+  "name": "qqgroup-visualization",
+  "version": "1.0.0",
+  "description": "QQ群关系可视化查询，3D力导向图",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node ./src/index.js"
+  },
+  "repository": "https://github.com/gstoken/qqgroup-visualization",
+  "author": "gstoken <gushihao@hotmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "koa2-cors": "^2.0.5",
+    "mssql": "^4.1.0"
+  }
+}
